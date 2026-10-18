@@ -18,6 +18,5 @@ public class GamePanel extends JPanel{
     protected void paintComponent(Graphics g){
         super.paintComponent(g);
         g.drawImage(cave, 0, 0, this);
-
     }
 }
